@@ -1,0 +1,4 @@
+Ottimizzazioni fatte:
+2) quando analizzo una feature i valori vengono ordinati in modo da provare uno split alla volta
+1) il coefficiente di gini viene calcolato prima di andare a trovare il best split e viene aggiornato
+ogni volta che si sposta un valore dal ramo di destra a quello di sinistra

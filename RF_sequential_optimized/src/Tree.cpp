@@ -18,7 +18,6 @@ DecisionTree::DecisionTree(int depth, int min_samples) : max_depth(depth), min_s
 DecisionTree::~DecisionTree() { delete root; }
 
 // Cerca il miglior punto di taglio (IL COLLO DI BOTTIGLIA DA PARALLELIZZARE!)
-// In src/Tree.cpp
 
 void DecisionTree::get_best_split(const vector<vector<double>>& features, const vector<int>& labels, 
                     int& best_feat, double& best_thresh, double& best_gini, 
